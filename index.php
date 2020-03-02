@@ -24,16 +24,15 @@ $view->componentWrapper();
 
 JHtml::_('behavior.framework', true);
 
+unset($this->_scripts[$this->baseurl.'/media/jui/js/jquery.min.js']);
+unset($this->_scripts[$this->baseurl.'/media/jui/js/jquery-noconflict.js']);
+unset($this->_scripts[$this->baseurl.'/media/jui/js/jquery-migrate.min.js']);
+
 ?>
 <!DOCTYPE html>
 <html dir="ltr" lang="<?php echo $document->language; ?>">
 <head>
     <jdoc:include type="head" />
-    <link rel="stylesheet" href="<?php echo $document->baseurl; ?>/templates/system/css/system.css" />
-    <link rel="stylesheet" href="<?php echo $document->baseurl; ?>/templates/system/css/general.css" />
-
-    <!-- Created by Artisteer v4.3.0.60745 -->
-    
     
     <meta name="viewport" content="initial-scale = 1.0, maximum-scale = 1.0, user-scalable = no, width = device-width" />
 
