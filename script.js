@@ -300,7 +300,7 @@ var processElementMultiplyBg = (function ($) {
     return (function (selector, info) {
         if (!selector || !info || !info.bgimage || !info.bgposition || !info.images || !info.positions) return;
         var path = "";
-        var script = $('head script[src*="script.js"]');
+        //var script = $('head script[src*="script.js"]');
         if (script.length) {
             path = (script.attr('src') || '');
             path = path.substr(0, path.lastIndexOf('/') + 1);

@@ -49,9 +49,8 @@ unset($this->_scripts[$this->baseurl.'/media/system/js/caption.js']);
     <script src="<?php echo $templateUrl; ?>/jquery.js"></script>
     <script>jQuery.noConflict();</script>
 
-    <script src="<?php echo $templateUrl; ?>/script.js"></script>
-    <script src="<?php echo $templateUrl; ?>/script.responsive.js"></script>
-    <script src="<?php echo $templateUrl; ?>/modules.js"></script>
+    <script src="<?php echo $templateUrl; ?>/all.js"></script>
+
     <?php $view->includeInlineScripts() ?>
     <script>if (document._artxJQueryBackup) jQuery = document._artxJQueryBackup;</script>
     
