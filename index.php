@@ -27,6 +27,9 @@ JHtml::_('behavior.framework', true);
 unset($this->_scripts[$this->baseurl.'/media/jui/js/jquery.min.js']);
 unset($this->_scripts[$this->baseurl.'/media/jui/js/jquery-noconflict.js']);
 unset($this->_scripts[$this->baseurl.'/media/jui/js/jquery-migrate.min.js']);
+unset($this->_scripts[$this->baseurl.'/media/system/js/mootools-more.js']);
+unset($this->_scripts[$this->baseurl.'/media/system/js/caption.js']);
+
 
 ?>
 <!DOCTYPE html>
@@ -51,6 +54,7 @@ unset($this->_scripts[$this->baseurl.'/media/jui/js/jquery-migrate.min.js']);
     <script src="<?php echo $templateUrl; ?>/modules.js"></script>
     <?php $view->includeInlineScripts() ?>
     <script>if (document._artxJQueryBackup) jQuery = document._artxJQueryBackup;</script>
+    
 </head>
 <body>
 

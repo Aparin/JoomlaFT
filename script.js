@@ -1587,6 +1587,6 @@ if ('undefined' !== typeof(MooTools)) {
                 el.store('tip:text', parts[1]);
             }
         });
-        var JTooltips = new Tips($$('.hasTip'), {"maxTitleChars": 50,"fixed": false});
+        /*var JTooltips = new Tips($$('.hasTip'), {"maxTitleChars": 50,"fixed": false});*/
     });
 }
