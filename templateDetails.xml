@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE install PUBLIC "-//Joomla! 2.5//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/1.6/template-install.dtd">
 <extension version="2.5" client="site" type="template" method="upgrade">
-    <name>AA291219</name>
-    <creationDate>2019-12-29</creationDate>
-    <version>1.0</version>
+    <name>JoomlaFT</name>
+    <creationDate>2019-03-02</creationDate>
+    <version>1.1</version>
     <author/>
     <authorUrl/>
     <description/>
